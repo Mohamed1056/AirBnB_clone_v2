@@ -78,3 +78,8 @@ class FileStorage:
         """ calls reload()
         """
         self.reload()
+
+    def close(self):
+        """reloading the json
+        """
+        self.reload()
